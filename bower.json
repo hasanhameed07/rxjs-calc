@@ -1,0 +1,22 @@
+{
+  "name": "rxjs-dom",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "hasan.hameed"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "rxjs": "^4.1.0"
+  }
+}

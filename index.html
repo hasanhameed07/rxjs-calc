@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Calc in RxJS</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="./src/css/style.css" rel="stylesheet">
+    
+    <script type="text/javascript" src="./bower_components/rxjs/dist/rx.all.js"></script>
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="#">Github</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Calc in RxJS</h3>
+      </div>
+
+      <div class="jumbotron">
+        <div class="container" id="calc">
+        <div class="row">
+            <input id="output" class="form-control input-lg text-right" disabled="disabled" type="text" value="0" >
+        </div>
+        <div class="row">
+            <button class="btn btn-lg btn-default col-xs-3 " >AC</button>
+            <button class="btn btn-lg btn-default col-xs-3 " >log</button>
+            <button class="btn btn-lg btn-default col-xs-3 " >sin</button>
+            <button class="btn btn-lg btn-default col-xs-3 " >tan</button>
+        </div>
+        <div class="row">
+            <button class="btn btn-lg btn-default col-xs-3 " >7</button>
+            <button class="btn btn-lg btn-default col-xs-3 " >8</button>
+            <button class="btn btn-lg btn-default col-xs-3 " >9</button>
+            <button class="btn btn-lg btn-default col-xs-3 " >*</button>
+        </div>
+        <div class="row">
+            <button class="btn btn-lg btn-default col-xs-3 " >4</button>
+            <button class="btn btn-lg btn-default col-xs-3 " >5</button>
+            <button class="btn btn-lg btn-default col-xs-3 " >6</button>
+            <button class="btn btn-lg btn-default col-xs-3 " >-</button>
+        </div>
+        <div class="row">
+            <button class="btn btn-lg btn-default col-xs-3 " >1</button>
+            <button class="btn btn-lg btn-default col-xs-3 " >2</button>
+            <button class="btn btn-lg btn-default col-xs-3 " >3</button>
+            <button class="btn btn-lg btn-default col-xs-3 " >+</button>
+        </div>
+        <div class="row">
+            <button class="btn btn-lg btn-default col-xs-3 " >0</button>
+            <button class="btn btn-lg btn-default col-xs-3 " >.</button>
+            <button class="btn btn-lg btn-default col-xs-3 " >=</button>
+            <button class="btn btn-lg btn-default col-xs-3 " >/</button>
+        </div>
+        </div>
+      </div>
+
+
+      <footer class="footer">
+        <p>&copy; 2016 Company, Inc.</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <script type="text/javascript" src="./src/js/parser.js"></script>
+    <script type="text/javascript" src="./src/js/calc.js"></script>
+  </body>
+</html>
